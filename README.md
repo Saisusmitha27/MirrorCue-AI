@@ -1,6 +1,6 @@
 ## MirrorCue AI
 
-Bias-Aware Resume Intelligence System
+A Bias-Aware Multi-Agent Resume Intelligence System
 
 ## Problem Statement
 
