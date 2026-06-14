@@ -1,4 +1,4 @@
-#MirrorCue AI
+## MirrorCue AI
 
 Bias-Aware Resume Intelligence System
 
