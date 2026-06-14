@@ -1,6 +1,6 @@
-# MirrorCue AI
+#MirrorCue AI
 
-Enterprise-grade multi-agent resume intelligence and optimization system.
+Bias-Aware Resume Intelligence System
 
 ## Problem Statement
 
