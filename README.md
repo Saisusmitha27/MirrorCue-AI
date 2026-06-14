@@ -4,11 +4,27 @@ Enterprise-grade multi-agent resume intelligence and optimization system.
 
 ## Problem Statement
 
-Traditional resume screening systems rely on basic, syntactic keyword matching, leading to high false-rejection rates, biased screening thresholds, and a lack of constructive feedback for candidates. Conversely, manual resume reviews are slow and vulnerable to unconscious regional, gender, and academic prestige biases. Candidates struggle to identify hidden gaps or align their experience with targeted job descriptions without introducing fabricated claims.
+Many students submit resumes that fail Applicant Tracking System (ATS) screening or are not effectively tailored to specific job descriptions. As a result, qualified candidates are often filtered out before reaching recruiters, despite possessing relevant skills and experience.
+
+Existing resume optimization tools primarily focus on keyword matching and generic rewriting while overlooking recruiter-side bias, contextual resume quality, and factual validation. Candidates receive limited actionable feedback and often struggle to improve resume visibility without introducing exaggerated or fabricated claims.
+
+There is a need for an intelligent system that can evaluate resumes against job descriptions, identify ATS and content gaps, detect potential bias signals, and provide verified, actionable recommendations for improvement.
 
 ## Solution Overview
 
-MirrorCue AI provides an automated, multi-agent parsing, matching, and optimization framework. By leveraging LLM-based structured parsing, semantic and priority-based keyword matching, and a machine learning bias classifier, the system reviews resumes objectively. It interacts with candidates via a dynamic Q&A phase to clarify gaps and suggests contextual, metric-driven bullet rewrites, ensuring optimal alignment with target jobs while actively mitigating demographic bias.
+MirrorCue AI is a Bias-Aware Resume Intelligence System designed to help students optimize resumes for both ATS systems and human recruiters.
+
+The platform uses a six-agent architecture to analyze resumes against job descriptions, identify keyword and skill gaps, evaluate ATS compatibility, detect recruiter-side bias indicators, and generate verified resume improvements.
+
+Unlike traditional resume analyzers, MirrorCue AI introduces two key innovations: a Bias Mirror module that highlights candidate visibility risks and a Q&A-driven validation workflow that prevents hallucinated resume content. Every recommendation is generated from validated candidate information, ensuring that rewritten content remains accurate, defensible, and job-relevant.
+
+The system produces three actionable outputs in a single workflow:
+
+- ATS Analysis Report
+- Bias Mirror Report
+- Verified Resume Rewrite
+
+This enables candidates to improve resume visibility, align with target roles, and present their experience more effectively without compromising authenticity.
 
 ## Key Features
 
