@@ -1,0 +1,102 @@
+[
+  {
+    "id": "tc01",
+    "description": "Tier-3 college, CGPA 6.8, vague ML internship",
+    "resume_snippet": "Panimalar Engineering College, CGPA 6.8. Worked on machine learning internship and helped build dashboards.",
+    "jd_snippet": "Looking for an entry-level data scientist with Python, SQL, model evaluation, and dashboarding experience.",
+    "expected_ats_score_range": [25, 40],
+    "expected_bias_flags": ["prestige_gap", "cgpa_penalty", "project_credibility"],
+    "expected_qa_questions_count_min": 2,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc02",
+    "description": "Female name, soft-skill language, no metrics",
+    "resume_snippet": "Priya coordinated the team, supported project delivery, and managed documentation for internship tasks.",
+    "jd_snippet": "Hiring an analyst with SQL, Python, ownership mindset, and measurable project outcomes.",
+    "expected_ats_score_range": [30, 48],
+    "expected_bias_flags": ["name_origin", "gender_coded_language", "project_credibility"],
+    "expected_qa_questions_count_min": 2,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc03",
+    "description": "Career gap with strong technical skills",
+    "resume_snippet": "One-year gap after second year, then completed TensorFlow, PyTorch, and NLP projects with strong code quality.",
+    "jd_snippet": "Need a machine learning engineer with modern DL stack and evidence of recent hands-on work.",
+    "expected_ats_score_range": [40, 60],
+    "expected_bias_flags": ["career_gap"],
+    "expected_qa_questions_count_min": 1,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc04",
+    "description": "Non-metro location, strong CGPA, weak JD alignment",
+    "resume_snippet": "Based in Salem with CGPA 8.7 and strong coursework, but projects focus on web apps instead of analytics.",
+    "jd_snippet": "Data engineering fresher role requiring ETL, Python, Airflow, SQL, and cloud basics.",
+    "expected_ats_score_range": [28, 45],
+    "expected_bias_flags": ["tier2_location"],
+    "expected_qa_questions_count_min": 2,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc05",
+    "description": "Indian English phrasing with good projects",
+    "resume_snippet": "Did the needful in data cleaning and worked in a team of peoples to finish the capstone project.",
+    "jd_snippet": "Seeking a data analyst with polished communication and strong Excel, SQL, and Python skills.",
+    "expected_ats_score_range": [38, 55],
+    "expected_bias_flags": ["vernacular_english"],
+    "expected_qa_questions_count_min": 1,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc06",
+    "description": "No certifications but excellent ATS alignment",
+    "resume_snippet": "Python, SQL, Power BI, internship in analytics, and clear project metrics with good formatting.",
+    "jd_snippet": "Entry data analyst role using Python, SQL, Power BI, dashboards, and business communication.",
+    "expected_ats_score_range": [72, 90],
+    "expected_bias_flags": [],
+    "expected_qa_questions_count_min": 0,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc07",
+    "description": "Regional name signal but tier-1 college",
+    "resume_snippet": "Aishwarya Lakshminarayanan, BITS Pilani, strong backend and ML projects with modest metrics.",
+    "jd_snippet": "Software engineer role asking for Python, APIs, teamwork, and production-ready problem solving.",
+    "expected_ats_score_range": [58, 76],
+    "expected_bias_flags": ["name_origin"],
+    "expected_qa_questions_count_min": 1,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc08",
+    "description": "Multiple simultaneous high-risk bias flags",
+    "resume_snippet": "Tier-3 college, CGPA 6.5, hometown listed prominently, vague projects, and unexplained gap year.",
+    "jd_snippet": "Competitive campus role demanding strong Python, analytics, communication, and project depth.",
+    "expected_ats_score_range": [20, 38],
+    "expected_bias_flags": ["prestige_gap", "career_gap", "cgpa_penalty", "tier2_location", "project_credibility"],
+    "expected_qa_questions_count_min": 3,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc09",
+    "description": "Strong resume with near-zero bias",
+    "resume_snippet": "Compact header, strong quantified projects, relevant internship, clean English, and direct ATS alignment.",
+    "jd_snippet": "Junior ML engineer role needing Python, ML deployment, APIs, Docker, and stakeholder communication.",
+    "expected_ats_score_range": [78, 92],
+    "expected_bias_flags": [],
+    "expected_qa_questions_count_min": 0,
+    "expected_rewrite_improves_ats": true
+  },
+  {
+    "id": "tc10",
+    "description": "Self-taught developer with strong GitHub proof",
+    "resume_snippet": "No college projects, but active open-source GitHub portfolio, deployed apps, and consistent self-study.",
+    "jd_snippet": "Looking for a self-starter developer with Git, APIs, cloud basics, and proof of shipped work.",
+    "expected_ats_score_range": [52, 74],
+    "expected_bias_flags": ["project_credibility"],
+    "expected_qa_questions_count_min": 1,
+    "expected_rewrite_improves_ats": true
+  }
+]

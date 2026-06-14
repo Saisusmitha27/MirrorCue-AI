@@ -1,0 +1,50 @@
+# Prerequisites/Environments
+.venv
+venv
+ENV
+env
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+backend/.env
+frontend/.env
+*.env
+
+# Python Caches & Build Outputs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+.mypy_cache/
+backend/models/bias_classifier.joblib
+
+# Node/JS Caches & Builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+frontend/dist/
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Uploads & Temporary folders
+backend/uploads/
+uploads/
+scratch/
+C:/Users/saisu/.gemini/antigravity/
+
+# IDE Configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

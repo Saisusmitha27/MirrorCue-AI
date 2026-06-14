@@ -1,0 +1,72 @@
+{
+  "prestige_gap": {
+    "label": "College Prestige Bias",
+    "description": "Tier-2/3 college automatically triggers lower shortlist priority regardless of skills",
+    "recruiter_heuristic": "Non-IIT/NIT = lower talent assumption in first 3 seconds",
+    "severity_weight": 0.9,
+    "india_specific": true
+  },
+  "name_origin": {
+    "label": "Name-Origin Bias",
+    "description": "Candidate name reveals regional, caste, or religious identity",
+    "recruiter_heuristic": "Names signal state/community — triggers in-group/out-group bias unconsciously",
+    "severity_weight": 0.30,
+    "india_specific": true
+  },
+  "gender_coded_language": {
+    "label": "Gender-Coded Language",
+    "description": "Words like 'nurturing', 'supportive', 'managed household', 'coordinated team' signal gender",
+    "recruiter_heuristic": "Soft-skill dominant language → recruiter infers gender → unconscious penalty for technical roles",
+    "severity_weight": 0.30,
+    "india_specific": false
+  },
+  "career_gap": {
+    "label": "Unexplained Career Gap",
+    "description": "Employment or academic timeline gaps with no context explanation",
+    "recruiter_heuristic": "Gaps = risk flag = deprioritized even when skills are current",
+    "severity_weight": 0.7,
+    "india_specific": false
+  },
+  "cgpa_penalty": {
+    "label": "CGPA Hard Filter",
+    "description": "CGPA below 7.0 used as binary filter even when project work is strong",
+    "recruiter_heuristic": "Sub-7 CGPA → auto-reject or bottom-pile in Indian campus drives",
+    "severity_weight": 0.85,
+    "india_specific": true
+  },
+  "vernacular_english": {
+    "label": "Indian English Phrasing",
+    "description": "Resume uses Indian English constructions that Western-trained ATS/recruiters flag as unprofessional",
+    "recruiter_heuristic": "Phrasing like 'did the needful' → subconscious credibility drop",
+    "severity_weight": 0.6,
+    "india_specific": true
+  },
+  "tier2_location": {
+    "label": "Non-Metro Geographic Bias",
+    "description": "College or home city is a non-metro Tier-2/3 city",
+    "recruiter_heuristic": "Non-metro origin → weaker network assumption → unconscious deprioritization",
+    "severity_weight": 0.65,
+    "india_specific": true
+  },
+  "project_credibility": {
+    "label": "Project Credibility Discount",
+    "description": "Self-taught or college projects described without metrics are dismissed vs corporate internship work",
+    "recruiter_heuristic": "No company name + no numbers = toy project assumption, regardless of technical depth",
+    "severity_weight": 0.95,
+    "india_specific": true
+  },
+  "degree_branch_bias": {
+    "label": "Degree/Branch Bias",
+    "description": "Candidates from non-CSE/IT branches are ranked lower despite having stronger skill alignment",
+    "recruiter_heuristic": "Non-CSE branch = assumed lack of coding depth in first screening",
+    "severity_weight": 0.8,
+    "india_specific": true
+  },
+  "masculine_language_bias": {
+    "label": "Masculine-Coded Language",
+    "description": "Job description language uses terms that discourage diverse applications",
+    "recruiter_heuristic": "Masculine phrasing (rockstar, aggressive) reduces application rates from qualified diverse groups",
+    "severity_weight": 0.30,
+    "india_specific": false
+  }
+}

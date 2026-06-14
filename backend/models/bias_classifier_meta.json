@@ -1,0 +1,44 @@
+{
+  "thresholds": {
+    "prestige_gap": 0.35,
+    "degree_branch_bias": 0.35,
+    "cgpa_penalty": 0.35,
+    "career_gap": 0.35,
+    "tier2_location": 0.35,
+    "name_origin": 0.35,
+    "project_credibility": 0.35,
+    "gender_coded_language": 0.35
+  },
+  "metrics": {
+    "macro_f1": 0.807143055818365,
+    "per_label_f1": {
+      "prestige_gap": 1.0,
+      "degree_branch_bias": 0.8595505617977528,
+      "cgpa_penalty": 0.9915254237288136,
+      "career_gap": 0.8762886597938144,
+      "tier2_location": 0.7958115183246073,
+      "name_origin": 0.5192307692307693,
+      "project_credibility": 0.8365384615384616,
+      "gender_coded_language": 0.5781990521327014
+    },
+    "train_size": 6271,
+    "test_size": 1107,
+    "feature_count": 21,
+    "source_counts": {
+      "jsonl": 880,
+      "recruitment": 2000,
+      "engineering": 2998,
+      "ai_hiring": 1500
+    }
+  },
+  "labels": [
+    "prestige_gap",
+    "degree_branch_bias",
+    "cgpa_penalty",
+    "career_gap",
+    "tier2_location",
+    "name_origin",
+    "project_credibility",
+    "gender_coded_language"
+  ]
+}
