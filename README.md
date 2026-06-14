@@ -58,10 +58,9 @@ This enables candidates to improve resume visibility, align with target roles, a
 * Uvicorn (ASGI Web Server)
 
 ### Database
-* PostgreSQL (with JSONB support)
+* PostgreSQL (with JSONB support)(Supabase)
 
 ### AI / ML
-* LangGraph & LangChain
 * Google Gemini API (with Groq fallback)
 * SentenceTransformers (`all-MiniLM-L6-v2`)
 * XGBoost & Scikit-learn (Bias Classification)
