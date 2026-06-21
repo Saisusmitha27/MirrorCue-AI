@@ -10,7 +10,11 @@
     "gender_coded_language": 0.35
   },
   "metrics": {
+    "subset_accuracy": 0.6982836495031617,
+    "label_accuracy": 0.9542682926829268,
     "macro_f1": 0.807143055818365,
+    "micro_f1": 0.8149840109639105,
+    "hamming_loss": 0.04573170731707317,
     "per_label_f1": {
       "prestige_gap": 1.0,
       "degree_branch_bias": 0.8595505617977528,
