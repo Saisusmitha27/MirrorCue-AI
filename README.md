@@ -70,7 +70,7 @@ This enables candidates to improve resume visibility, align with target roles, a
 ```text
 MirrorCueAI/
 ├── backend/
-│   ├── agents/          # LangGraph orchestrator and specialized LLM agents
+│   ├── agents/          # asynchronous Python control flow orchestrator and specialized LLM agents
 │   ├── core/            # Config settings, logging definitions, and DB engines
 │   ├── data/            # Static bias dictionaries and training datasets
 │   ├── ml/              # Feature extractors and XGBoost classification code
