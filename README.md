@@ -28,7 +28,7 @@ This enables candidates to improve resume visibility, align with target roles, a
 
 ## Key Features
 
-* **Multi-Agent Orchestration**: Sequential, state-controlled analysis pipeline modeled via LangGraph.
+* **Multi-Agent Orchestration**: Sequential, state-controlled analysis pipeline modeled via asynchronous Python control flow.
 * **Semantic & Priority-Based ATS Scoring**: Hybrid matching using sentence embeddings and priority-ordered fuzzy text matching.
 * **Demographic Bias Mitigation**: XGBoost-powered classifier analyzing prestige, gender, regional, and career gap markers.
 * **Interactive Smart Rewrite**: Automated generation of contextual resume enhancements gated by verification questions.
@@ -39,7 +39,7 @@ This enables candidates to improve resume visibility, align with target roles, a
 * **Frontend**: A single-page React app built with TypeScript and Vite. It utilizes Zustand for global state management and Tailwind CSS for interface styling, communicating with the backend via REST endpoints.
 * **Backend**: An asynchronous FastAPI service that exposes endpoints for authentication, uploads, and agent analysis orchestration.
 * **Database**: PostgreSQL (or Supabase) managed through SQLAlchemy async sessions. Dynamic analysis metadata, scoring details, and response blocks are stored in a schema using optimized `JSONB` columns.
-* **AI Modules**: A LangGraph orchestrator coordinating an LLM-based Resume Parser, an ATS Matcher, a Bias Mirror (integrating a local XGBoost model), a Q&A Generator, and a Resume Rewrite Agent.
+* **AI Modules**: Asynchronous Python control flow orchestrator coordinating an LLM-based Resume Parser, an ATS Matcher, a Bias Mirror (integrating a local XGBoost model), a Q&A Generator, and a Resume Rewrite Agent.
 * **APIs**: JWT-secured endpoints for session management, PDF uploads, polling statuses, and submitting Q&A responses.
 * **Internal Communication**: The state is passed sequentially across agents using a centralized state graph dictionary, preserving the context through processing stages.
 
